@@ -1,9 +1,11 @@
 import React from 'react';
 import Header from './Header';
+import Main from './main';
 
 const App = () => (
     <div className="container"> 
         <Header/>
+        <Main />
     </div>
 )
 
