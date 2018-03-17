@@ -1,3 +1,14 @@
 .nav-tabs .nav-link.active {
-  border-color: #fc0 !important;
+  color: #fc0 !important;
+  border-color: #fc0 #fc0 #fff!important;
+  font-weight: bold;
+}
+
+.eyelashes a {
+  color: #888;
+  font-weight: bold;
+}
+;
+.eyelashes a:hover {
+  color: black
 }
