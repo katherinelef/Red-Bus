@@ -1,7 +1,7 @@
 import React from 'react';
 import SitePayBancos from './SitePayBancos';
 
-const bancos = ['bcp.png', 'bbva.png', 'interbank.png', 'scotiabank.png','banbif.png'];
+const bancos = [{img:'bcp.png'}, {img:'bbva.png'}, {img:'interbank.png'}, {img:'scotiabank.png'},{img:'banbif.png'}];
 
 const SelectPayBanca = () => (
     <div className="m-4">
