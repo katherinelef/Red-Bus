@@ -2,9 +2,10 @@ import React from 'react';
 import Eyelashes from './Eyelashes';
 
 
-const Main = () => (
+
+const Main = ({MainBancos}) => (
     <main >
-        <Eyelashes />      
+        <Eyelashes ListBancos = {MainBancos}  />      
     </main>
 );
 
