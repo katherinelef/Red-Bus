@@ -1,14 +1,14 @@
 import React from 'react';
-import SitePay from './SitePay';
+import SitePayBancos from './SitePayBancos';
 
 const datosEspañol = ['bcp.png', 'bbva.png', 'interbank.png', 'scotiabank.png','banbif.png'];
 
-const SelectPay = () => (
+const SelectPayEfectivo = () => (
     <div className="m-4">
         <p className="text-secondary">Selecciona dónde quieres pagar</p>
-        <SitePay arrayString={datosEspañol}/>
-        <p className="text-secondary">Puedes pagar desde la Web o App móvil del Banco</p>
+        <SitePaybancos arrayString={datosEspañol}/>
+       
     </div>
 );
 
-export default SelectPay;
+export default SelectPayEfectivo;

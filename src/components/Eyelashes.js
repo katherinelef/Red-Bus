@@ -1,5 +1,6 @@
 import React from 'react';
 import TimeBox from './TimeBox'
+import SelectPayBanca from './SelectPayBanca';
 
 const Eyelashes = () => (
     <div>
@@ -12,12 +13,16 @@ const Eyelashes = () => (
                     <a className="nav-link" id="profile-tab" data-toggle="tab" href="#" role="tab" aria-controls="profile" aria-selected="false">Pagar en efectivo</a>
                 </li>
             </ul>
+            <TimeBox />
             <div className="tab-content" id="myTabContent">
-                <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"></div>
-                <div className="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"></div>
+                <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <SelectPayBanca />
+                </div>
+                <div className="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                </div>
             </div>
         </nav>
-        <TimeBox />
+        
     </div>
 );
 

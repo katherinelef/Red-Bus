@@ -1,13 +1,13 @@
 import React from 'react';
-import SitePayItem from './SitePay-item';
+import SitePayItemBancos from './SitePay-itemBancos';
 import PropTypes from 'prop-types';
 
 
-const SitePay = ({arrayString}) => {
+const SitePayBancos = ({dataBancos}) => {
     return (
     <div className="row d-flex justify-content-between align-items-center mt-4 mb-4">
-        {arrayString.map( (e, i) =>
-            <SitePayItem
+        {dataBancos.map( (e, i) =>
+            <SitePayItemBancos
                 datostring={e}
                 key={i}
                 />
@@ -16,8 +16,8 @@ const SitePay = ({arrayString}) => {
     )
 } 
 
-SitePay.propTypes = {
+SitePayBancos.propTypes = {
     arrayString: PropTypes.arrayOf(PropTypes.string)
 };
 
-export default SitePay;
+export default SitePayBancos;
