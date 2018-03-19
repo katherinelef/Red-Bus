@@ -3,11 +3,7 @@ import TimeBox from './TimeBox';
 import SelectPayBanca from './SelectPayBanca';
 import SelectPayEfectivo from './SelectPayEfectivo';
 
-const Eyelashes = () => {
-
-    
-
-    return(
+const Eyelashes = () => (
     <div>
         <nav>
             <ul className="nav nav-tabs border-warning eyelashes" id="myTab" role="tablist">
@@ -20,16 +16,16 @@ const Eyelashes = () => {
             </ul>
             <TimeBox />
             <div className="tab-content" id="myTabContent">
-                <div className="tab-pane fade " id="home" role="tabpanel" aria-labelledby="home-tab" >
+                <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab" >
                     <SelectPayBanca />
                 </div>
-                <div className="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div className="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                     <SelectPayEfectivo />
                 </div>
             </div>
         </nav>
         
-    </div>)
-};
+    </div>
+);
 
 export default Eyelashes;
