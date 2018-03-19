@@ -1,8 +1,6 @@
 import React from 'react';
 import SitePayBancos from './SitePayBancos';
 
-
-
 const SelectPayBanca = ({bancos}) => (
     <div className="m-4">
         <p className="text-secondary">Selecciona dónde quieres pagar</p>
