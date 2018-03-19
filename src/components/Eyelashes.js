@@ -12,7 +12,7 @@ const Eyelashes = () => {
         <nav>
             <ul className="nav nav-tabs border-warning eyelashes" id="myTab" role="tablist">
                 <li className="nav-item ml-4">
-                    <a onClick={handleClick} className="nav-link active" id="home-tab" data-toggle="tab" href="#" role="tab" aria-controls="home" aria-selected="true">Banca por internet</a>
+                    <a  className="nav-link active" id="home-tab" data-toggle="tab" href="#" role="tab" aria-controls="home" aria-selected="true">Banca por internet</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" id="profile-tab" data-toggle="tab" href="#" role="tab" aria-controls="profile" aria-selected="false">Pagar en efectivo</a>
@@ -20,10 +20,10 @@ const Eyelashes = () => {
             </ul>
             <TimeBox />
             <div className="tab-content" id="myTabContent">
-                <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab" >
+                <div className="tab-pane fade " id="home" role="tabpanel" aria-labelledby="home-tab" >
                     <SelectPayBanca />
                 </div>
-                <div className="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div className="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                     <SelectPayEfectivo />
                 </div>
             </div>
