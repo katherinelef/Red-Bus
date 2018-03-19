@@ -17,7 +17,7 @@ const SitePayBancos = ({dataBancos}) => {
 } 
 
 SitePayBancos.propTypes = {
-    arrayString: PropTypes.arrayOf(PropTypes.string)
+    dataBancos: PropTypes.arrayOf(PropTypes.string)
 };
 
 export default SitePayBancos;
