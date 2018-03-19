@@ -1,12 +1,12 @@
 import React from 'react';
-import SitePayBancos from './SitePayBancos';
+import SitePayEfectivo from './SitePayEfectivo';
 
-const datosEspañol = ['bcp.png', 'bbva.png', 'interbank.png', 'scotiabank.png','banbif.png'];
+const dataEfectivo = ['full-carga.jpg', 'scotiabank.png', 'western-union.png', 'kasnet.jpg'];
 
 const SelectPayEfectivo = () => (
     <div className="m-4">
         <p className="text-secondary">Selecciona dónde quieres pagar</p>
-        <SitePaybancos arrayString={datosEspañol}/>
+        <SitePayEfectivo dataPagosEfectivo={dataEfectivo}/>
        
     </div>
 );
