@@ -5,7 +5,7 @@ import SelectPayEfectivo from './SelectPayEfectivo';
 
 
 
-const Eyelashes = ({ListBancos}) => (
+const Eyelashes = () => (
     <div>
         <nav>
             <ul className="nav nav-tabs border-warning eyelashes" id="myTab" role="tablist">
@@ -19,7 +19,7 @@ const Eyelashes = ({ListBancos}) => (
             <TimeBox />
             <div className="tab-content" id="myTabContent">
                 <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab" >
-                    <SelectPayBanca bancos = {ListBancos}/>
+                    <SelectPayBanca/>
                 </div>
                 <div className="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                     <SelectPayEfectivo />

@@ -3,9 +3,9 @@ import Eyelashes from './Eyelashes';
 
 
 
-const Main = ({MainBancos}) => (
+const Main = () => (
     <main >
-        <Eyelashes ListBancos = {MainBancos}  />      
+        <Eyelashes/>      
     </main>
 );
 
