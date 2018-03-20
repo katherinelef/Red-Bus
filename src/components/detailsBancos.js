@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const BancosDetails = ({opcionDetailBanco}) => (
   <div>
     <div >
