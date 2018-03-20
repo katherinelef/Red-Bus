@@ -12,4 +12,4 @@ const BancosDetails = ({opcionDetailBanco}) => (
   </div>
 )
 
-export default BancosDetails
+export default BancosDetails;
